@@ -1,0 +1,28 @@
+div#test-accordion{
+    margin: 100px;
+    
+}
+
+div.accordion {
+	position: relative; /* required for bounding */
+}
+
+div.accordion-toggle{
+    position: relative; /* required for effect */
+    z-index: 10;		/* required for effect */
+    background: gray;   
+    cursor: pointer;
+    font-family: 'Tahoma';
+    font-size: 12px;
+    font-weight:bold;
+ 
+}
+
+div.accordion-toggle-active{
+	background: silver;	
+}
+
+div.accordion-content{
+    overflow: hidden;	/* required for effect */
+    background: #black;
+}
